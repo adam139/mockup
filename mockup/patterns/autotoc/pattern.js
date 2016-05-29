@@ -80,7 +80,7 @@ define([
     parser: 'mockup',
     defaults: {
       section: 'section',
-      levels: 'h1,h2,h3',
+      levels: 'h2,h3,h4',
       IDPrefix: 'autotoc-item-',
       classTOCName: 'autotoc-nav',
       classSectionName: 'autotoc-section',
