@@ -141,8 +141,14 @@ define([
         insertBtn: _t('Insert'), // so this can be configurable for different languages
         cancelBtn: _t('Cancel'),
         insertHeading: _t('Insert link'),
+        internalImage: _t('Internal Image'),
+        insertImageHelp: _t('Specify an image. It can be on this site already ("Internal Image"), an image you upload ("Upload"), or from an external site ("External Image").'),
+        insertLinkHelp: _t('Specify the object to link to. It can be on this site already ("Internal"), an object you upload ("Upload"), from an external site ("External"), an email address ("Email"), or an anchor on this page ("Anchor").'),
         title: _t('Title'),
-        internal: _t('Internal'),
+        Internal: _t('Internal'),
+        Upload: _t('Upload'),
+        External: _t('External'),
+        Target: _t('Target'),
         external: _t('External URL (can be relative within this site or absolute if it starts with http:// or https://)'),
         email: _t('Email Address'),
         anchor: _t('Anchor'),
@@ -151,6 +157,7 @@ define([
         imageAlign: _t('Align'),
         scale: _t('Size'),
         alt: _t('Alternative Text'),
+        ExternalImage: _t('External Image'),
         externalImage: _t('External Image URL (can be relative within this site or absolute if it starts with http:// or https://)')
       },
       // URL generation options
