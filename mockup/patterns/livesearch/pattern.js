@@ -43,7 +43,7 @@ define([
       ajaxUrl: null,
       perPage: 7,
       quietMillis: 350,
-      minimumInputLength: 2,
+      minimumInputLength: 4,
       inputSelector: 'input[type="text"]',
       itemTemplate: '<li class="search-result <%- state %>">' +
         '<h4 class="title"><a href="<%- url %>"><%- title %></a></h4>' +

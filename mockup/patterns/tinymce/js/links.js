@@ -489,6 +489,8 @@ define([
         insertLinkHelp: this.options.text.insertLinkHelp,
         uploadlabel: this.options.text.Upload,        
         external: this.options.text.External,
+        anchor: this.options.text.Anchor,
+        selectAnchor: this.options.text.selectAnchor,
         target: this.options.text.Target,
         internalImage: this.options.text.internalImage,
         externalText: this.options.text.external,
