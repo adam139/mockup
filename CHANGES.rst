@@ -6,7 +6,20 @@ Changelog
 
 Incompatibilities:
 
+- Remove support for node version < ``0.11`` and update travis dependencies.
+  [thet]
+
 New:
+
+- Fix urls in modals not opening in new window
+  [vangheem]
+
+- Update safe bower.json dependencies except backbone which tests would fail.
+  Keep jQuery at ``1.11.3`` as long as this might be used in Plone 4.x together with plone.app.jquerytools, which uses the deprecated internal ``$.buildFragments`` method.
+  [thet]
+
+- Update package.json dependencies, except less which has incompatible changes since 2.0 (less.parse).
+  [thet]
 
 - add body class for active popover
   [vangheem]
@@ -36,10 +49,21 @@ New:
   - Don't show empty alerts with ``alert-warning`` CSS class.
     Show them transparent but in the same height as if they were not empty.
     Align HTML structue with bootstrap ones and use ``<strong>`` for alert labels.
+  - Fix rearrange button
 
   [thet]
 
 Fixes:
+
+- Updated the documentation in LEARN.md
+  [janga1997]
+
+- Fix issues where querystring widget was broke due to issues with
+  checks for undefined
+  [datakurre]
+
+- Escape input into select2 widget
+  [vangheem]
 
 - Fix issue where using filter when paging would not work in the structure pattern
   [vangheem]
