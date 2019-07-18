@@ -176,7 +176,7 @@ define([
         'image-inline': _t('Inline'),
         'image-right': _t('Right'),
         'image-left': _t('Left'),
-        'image-responsive': _t('Responsive')        
+        'img-responsive center-block': _t('Responsive')        
       },
       targetList: [
         {text: _t('Open in this window / frame'), value: ''},
